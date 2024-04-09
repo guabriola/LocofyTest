@@ -1,0 +1,75 @@
+.imageIcon {
+  align-self: stretch;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.productViewBikeSelectorCon,
+.span {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.span {
+  flex: 1;
+}
+.productViewBikeSelectorCon {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-11xs);
+  background-color: transparent;
+  height: 70px;
+  border-radius: var(--br-3xs);
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+.electricAce,
+.two {
+  position: relative;
+  display: inline-block;
+}
+.electricAce {
+  line-height: 15.6px;
+  min-width: 70px;
+  max-height: 15.600000381469727px;
+}
+.two {
+  line-height: 8px;
+  min-width: 17px;
+}
+.button,
+.productViewBikeselectorTitl,
+.span1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.span1 {
+  flex-direction: column;
+  padding: 0 0 var(--padding-5xs-6) var(--padding-10xs-5);
+  z-index: 1;
+  margin-left: -0.7px;
+  font-size: var(--font-size-5xs);
+}
+.button,
+.productViewBikeselectorTitl {
+  flex-direction: row;
+  padding: 0 var(--padding-xs-2) 0 0;
+}
+.button {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-8xs) var(--padding-8xs) var(--padding-5xl-4);
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  min-width: 71px;
+  text-align: left;
+  font-size: var(--download-2-nuckle-regular-12-size);
+  color: var(--download-heavy-metal);
+  font-family: var(--download-2-nuckle-regular-16);
+}

@@ -1,0 +1,904 @@
+.icon {
+  height: 11.6px;
+  width: 110px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-lg-7) var(--padding-23xl-3) var(--padding-lg-7)
+    var(--padding-23xl-4);
+}
+.buttonFormselect {
+  flex: 1;
+  font-family: var(--download-2-nuckle-regular-16);
+  font-weight: 500;
+  font-size: var(--download-2-nuckle-regular-12-size);
+  color: var(--download-heavy-metal);
+}
+.item {
+  width: 101.1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-lg-5) var(--padding-5xs-9) var(--padding-base-5);
+  box-sizing: border-box;
+}
+.buttonFormselect1 {
+  flex: 1;
+  font-family: var(--download-2-nuckle-regular-16);
+  font-weight: 500;
+  font-size: var(--download-2-nuckle-regular-12-size);
+  color: var(--download-heavy-metal);
+}
+.item1 {
+  width: 66.7px;
+  align-items: center;
+  padding: var(--padding-lg-5) var(--padding-5xs-9) var(--padding-base-5);
+  box-sizing: border-box;
+}
+.button,
+.item1,
+.item2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.button {
+  flex: 1;
+  background-color: transparent;
+  border: 0;
+  align-items: flex-start;
+  padding: 0 var(--padding-12xs);
+  font-family: var(--download-2-nuckle-regular-16);
+  font-weight: 500;
+  font-size: var(--download-2-nuckle-regular-12-size);
+  color: var(--download-heavy-metal);
+}
+.item2 {
+  width: 64.4px;
+  align-items: center;
+  padding: var(--padding-lg-5) var(--padding-5xs) var(--padding-base-5)
+    var(--padding-5xs-9);
+  box-sizing: border-box;
+}
+.accessories {
+  position: relative;
+  letter-spacing: 0.6px;
+  line-height: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 92px;
+}
+.button1,
+.item3,
+.menuTitle,
+.menuTitleFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menuTitleFrame {
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 var(--padding-7xs) 0 0;
+}
+.button1,
+.item3,
+.menuTitle {
+  flex-direction: row;
+}
+.button1,
+.item3 {
+  flex-direction: column;
+}
+.item3 {
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-lg-5) var(--padding-5xs-9) var(--padding-base-5);
+}
+.stores {
+  position: relative;
+  letter-spacing: 0.6px;
+  line-height: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 52px;
+}
+.button2,
+.item4,
+.menuTitle1,
+.menuTitleFrame1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menuTitleFrame1 {
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 var(--padding-9xs-5) 0 0;
+}
+.button2,
+.item4,
+.menuTitle1 {
+  flex-direction: row;
+}
+.button2,
+.item4 {
+  flex-direction: column;
+}
+.item4 {
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-lg-5) var(--padding-5xs) var(--padding-base-5)
+    var(--padding-5xs-9);
+}
+.button3 {
+  flex: 1;
+  background-color: transparent;
+  border: 0;
+  align-items: flex-start;
+  padding: 0 1.400000000000091px 0 1.699999999999818px;
+  font-family: var(--download-2-nuckle-regular-16);
+  font-weight: 500;
+  font-size: var(--download-2-nuckle-regular-12-size);
+  color: var(--download-heavy-metal);
+}
+.button3,
+.item5,
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.item5 {
+  width: 91.5px;
+  align-items: center;
+  padding: var(--padding-lg-5) var(--padding-5xs) var(--padding-base-5)
+    var(--padding-5xs-9);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.list {
+  align-items: flex-start;
+  max-width: 100%;
+}
+.en {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.6px;
+  line-height: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 18px;
+}
+.label {
+  width: 19.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs-6) 0 var(--padding-12xs-9);
+  box-sizing: border-box;
+}
+.maskGroupIcon {
+  height: 17.5px;
+  width: 9.5px;
+  position: relative;
+  object-fit: cover;
+}
+.div {
+  height: 15px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+}
+.div,
+.svg,
+.ukSvg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.svg {
+  overflow: hidden;
+  flex-direction: column;
+}
+.ukSvg {
+  flex-direction: row;
+}
+.button4 {
+  padding: var(--padding-xl) var(--padding-lgi-9) var(--padding-xl)
+    var(--padding-xl);
+}
+.button4,
+.languageWrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.vectorIcon,
+.vectorIcon1 {
+  width: 5.9px;
+  height: 5.9px;
+  position: relative;
+}
+.vectorIcon1 {
+  width: 9.1px;
+  height: 5.7px;
+}
+.svg1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-7xs) var(--padding-11xs-1);
+  gap: var(--gap-11xs);
+}
+.label1 {
+  padding: 0 0 var(--padding-10xs);
+}
+.button5,
+.label1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.accountWrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl);
+}
+.vectorIcon2,
+.vectorIcon3 {
+  width: 6px;
+  height: 3.9px;
+  position: relative;
+}
+.vectorIcon3 {
+  width: 11.7px;
+  height: 9.3px;
+}
+.vectorIcon4,
+.vectorIcon5 {
+  width: 0;
+  height: 10%;
+  position: absolute;
+  margin: 0 !important;
+  top: 50%;
+  bottom: 40%;
+  left: 58.53%;
+  max-height: 100%;
+  z-index: 1;
+}
+.vectorIcon5 {
+  left: 37.33%;
+}
+.label2,
+.svg2 {
+  justify-content: flex-start;
+}
+.svg2 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-12xs) var(--padding-8xs) var(--padding-11xs-8);
+  position: relative;
+}
+.label2 {
+  align-items: flex-start;
+}
+.cartWrap,
+.label2,
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.cartWrap {
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl);
+}
+.wrapper {
+  height: 49px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0;
+  box-sizing: border-box;
+}
+.controlsMargin,
+.header,
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.controlsMargin {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 var(--padding-32xl-9) 0 var(--padding-33xl);
+  box-sizing: border-box;
+  min-width: 193.77000427246094px;
+  text-align: center;
+}
+.header,
+.nav {
+  align-self: stretch;
+}
+.nav {
+  border-bottom: 1px solid var(--download-heavy-metal-10);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 0 var(--padding-12xs);
+}
+.header {
+  background-color: var(--download-nero);
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--download-2-nuckle-regular-12-size);
+  color: var(--download-heavy-metal);
+  font-family: var(--download-2-nuckle-regular-16);
+}
+.velorettiBusiness {
+  position: relative;
+  letter-spacing: 0.6px;
+  line-height: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.smallHeading {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.bikeLeasePlan {
+  margin: 0;
+}
+.bikeLeasePlanContainer {
+  margin: 0;
+  align-self: stretch;
+  height: 74px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.6px;
+  line-height: 80px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.largeHeading {
+  justify-content: center;
+  font-size: var(--font-size-51xl);
+}
+.container,
+.heroSection,
+.largeHeading {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.container {
+  justify-content: center;
+  padding: var(--padding-345xl-5) 289px var(--padding-345xl-5)
+    var(--padding-31xl);
+  gap: var(--gap-3xs);
+}
+.heroSection {
+  justify-content: flex-start;
+  background-image: url(/public/hero-section@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-size: var(--download-2-nuckle-medium-14-size);
+  color: var(--download-nero);
+}
+.imageIcon {
+  height: 636px;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.textMediaStaticBackground,
+.wrapper1 {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.wrapper1 {
+  align-self: stretch;
+  flex-direction: row;
+}
+.textMediaStaticBackground {
+  width: 677.6px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 0 0 0 var(--padding-23xl);
+  box-sizing: border-box;
+  min-width: 677.6000000000001px;
+}
+.bikePlansFor,
+.employees {
+  margin: 0;
+}
+.bikePlansForContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.heading3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 465.8800048828125px;
+}
+.employerAndOutside,
+.velorettiElectricsBenefit,
+.yourEmployeesOh {
+  margin: 0;
+}
+.velorettiElectricsBenefitContainer {
+  position: relative;
+  line-height: 21px;
+}
+.aboutText,
+.paragraph {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.paragraph {
+  padding: 0 var(--padding-2xl) 0 0;
+  font-size: var(--download-2-nuckle-medium-14-size);
+}
+.aboutText {
+  padding: 0 0 var(--padding-2xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.discoverMore {
+  align-self: stretch;
+  position: relative;
+  line-height: 15px;
+  text-transform: capitalize;
+}
+.buttonText,
+.buttonTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.buttonTitle {
+  align-self: stretch;
+  align-items: center;
+  padding: 0 var(--padding-11xs-5) 0 var(--padding-11xs-7);
+}
+.buttonText {
+  flex: 1;
+  align-items: flex-start;
+}
+.popupButton {
+  width: 113.2px;
+  border-radius: var(--br-61xl);
+  border: 1px solid var(--download-nero-10);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs) 0;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--download-heavy-metal);
+}
+.desktopWrapper,
+.textMediaStaticForeground,
+.textMediaStaticText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textMediaStaticText {
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 465.8819885253906px;
+}
+.desktopWrapper,
+.textMediaStaticForeground {
+  width: 465.9px;
+  max-width: 100%;
+}
+.textMediaStaticForeground {
+  width: 720px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 var(--padding-44xl-5) 0 var(--padding-44xl);
+  box-sizing: border-box;
+  min-width: 720px;
+  z-index: 1;
+}
+.aboutSection,
+.container1 {
+  align-self: stretch;
+  background-color: var(--download-nero);
+  display: flex;
+  max-width: 100%;
+}
+.container1 {
+  border-top: 1px solid var(--download-nero-10);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-72xl) var(--padding-23xl-4) var(--padding-71xl) 0;
+  row-gap: 20px;
+  gap: var(--gap-0);
+}
+.aboutSection {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bikeImagejpegIcon {
+  height: 636px;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.backgroundImage,
+.textMediaStaticBackground1 {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.backgroundImage {
+  align-self: stretch;
+  flex-direction: row;
+}
+.textMediaStaticBackground1 {
+  width: 677.6px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 0 0 0 var(--padding-23xl);
+  box-sizing: border-box;
+  min-width: 677.6000000000001px;
+}
+.employers,
+.freeOfCharge {
+  margin: 0;
+}
+.freeOfChargeContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.wrapper3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini) 0 0;
+  box-sizing: border-box;
+  max-width: 465.8800048828125px;
+}
+.anEmployerThe,
+.employerDecideWhether,
+.theBikePlan {
+  margin: 0;
+}
+.theBikePlanContainer {
+  position: relative;
+  line-height: 21px;
+}
+.headings,
+.paragraph1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.paragraph1 {
+  padding: 0;
+  font-size: var(--download-2-nuckle-medium-14-size);
+}
+.headings {
+  padding: 0 0 var(--padding-2xl);
+  gap: var(--gap-xl);
+}
+.costExample {
+  align-self: stretch;
+  position: relative;
+  line-height: 15px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.buttonText1,
+.buttonTitle1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.buttonTitle1 {
+  align-self: stretch;
+  align-items: center;
+  padding: 0 var(--padding-12xs) 0 var(--padding-11xs-5);
+}
+.buttonText1 {
+  flex: 1;
+  align-items: flex-start;
+}
+.popupbuttonButtonApmwo {
+  width: 107.8px;
+  border-radius: var(--br-61xl);
+  border: 1px solid var(--download-nero-10);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs) 0;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--download-heavy-metal);
+}
+.textMediaStaticText1,
+.wrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textMediaStaticText1 {
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 465.8819885253906px;
+}
+.wrapper2 {
+  width: 465.9px;
+  max-width: 100%;
+}
+.textMediaStaticForeground1 {
+  width: 720px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 var(--padding-44xl-5) 0 var(--padding-44xl);
+  box-sizing: border-box;
+  min-width: 720px;
+  max-width: 100%;
+  z-index: 1;
+}
+.section,
+.textMediaElement {
+  background-color: var(--download-nero);
+  display: flex;
+  max-width: 100%;
+}
+.textMediaElement {
+  align-self: stretch;
+  border-top: 1px solid var(--download-nero-10);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-72xl) var(--padding-23xl-4) var(--padding-71xl) 0;
+  row-gap: 20px;
+  gap: var(--gap-0);
+}
+.section {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footer,
+.main,
+.section {
+  align-self: stretch;
+}
+.main {
+  background-color: var(--download-nero);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--download-1-heavy-metal-90);
+  font-family: var(--download-2-nuckle-regular-16);
+}
+.footer {
+  background-color: var(--download-heavy-metal);
+  padding: 0;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.footer,
+.home,
+.mainParent {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mainParent {
+  align-self: stretch;
+}
+.home {
+  width: 1440px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1425px) {
+  .textMediaStaticBackground,
+  .textMediaStaticForeground {
+    flex: 1;
+  }
+  .container1 {
+    flex-wrap: wrap;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .textMediaStaticBackground1,
+  .textMediaStaticForeground1 {
+    flex: 1;
+  }
+  .textMediaElement {
+    flex-wrap: wrap;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    padding-top: var(--padding-218xl);
+    padding-bottom: var(--padding-218xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .bikeLeasePlanContainer {
+    font-size: var(--font-size-37xl);
+  }
+  .container {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-125xl);
+    box-sizing: border-box;
+  }
+  .textMediaStaticBackground {
+    padding-left: var(--padding-2xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .bikePlansForContainer {
+    font-size: var(--font-size-21xl);
+    line-height: 40px;
+  }
+  .heading3,
+  .textMediaStaticText {
+    max-width: 100%;
+  }
+  .textMediaStaticForeground {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .container1 {
+    padding-top: var(--padding-40xl);
+    padding-bottom: var(--padding-39xl);
+    box-sizing: border-box;
+  }
+  .textMediaStaticBackground1 {
+    padding-left: var(--padding-2xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .freeOfChargeContainer {
+    font-size: var(--font-size-21xl);
+    line-height: 40px;
+  }
+  .textMediaStaticText1,
+  .wrapper3 {
+    max-width: 100%;
+  }
+  .textMediaStaticForeground1 {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .textMediaElement {
+    padding-top: var(--padding-40xl);
+    padding-bottom: var(--padding-39xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .controlsMargin {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .bikeLeasePlanContainer {
+    font-size: var(--font-size-23xl);
+  }
+  .container {
+    padding-top: var(--padding-135xl);
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-135xl);
+    box-sizing: border-box;
+  }
+  .bikePlansForContainer {
+    font-size: var(--font-size-11xl);
+    line-height: 30px;
+  }
+  .container1 {
+    padding-top: var(--padding-19xl);
+    padding-bottom: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+  .freeOfChargeContainer {
+    font-size: var(--font-size-11xl);
+    line-height: 30px;
+  }
+  .textMediaElement {
+    padding-top: var(--padding-19xl);
+    padding-bottom: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+}
