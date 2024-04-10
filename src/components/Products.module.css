@@ -528,9 +528,9 @@
   flex-direction: column;
   align-items: flex-start;
   text-align: center;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   color: var(--download-heavy-metal);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 .velorettiElectric {
   position: relative;
@@ -803,10 +803,10 @@
 }
 .buyNow {
   position: relative;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   line-height: 21px;
   font-weight: 500;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   color: var(--download-1-black-87);
   text-align: left;
   display: inline-block;
@@ -1021,7 +1021,7 @@
   row-gap: 20px;
   max-width: 100%;
   gap: var(--gap-0);
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
 }
 .featuredBikeNewCard,
 .wrapper2 {
@@ -1237,10 +1237,10 @@
 }
 .buyNow1 {
   position: relative;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   line-height: 21px;
   font-weight: 500;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   color: var(--download-1-black-87);
   text-align: left;
   display: inline-block;
@@ -1430,7 +1430,7 @@
   row-gap: 20px;
   max-width: 100%;
   gap: var(--gap-0);
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
 }
 .container1,
 .featuredBikeNewCard1 {
@@ -1651,10 +1651,10 @@
 }
 .buyNow2 {
   position: relative;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   line-height: 21px;
   font-weight: 500;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   color: var(--download-1-black-87);
   text-align: left;
   display: inline-block;
@@ -1719,7 +1719,7 @@
   align-items: flex-end;
   justify-content: center;
   padding: var(--padding-16xl) 0 0;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
 }
 .featuredBikeNewCard2 {
   width: 540px;
@@ -1846,9 +1846,9 @@
 }
 .buyNow3 {
   position: relative;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   line-height: 21px;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   color: var(--download-1-black-87);
   text-align: left;
   display: inline-block;
@@ -1915,7 +1915,7 @@
   align-items: flex-end;
   justify-content: center;
   padding: var(--padding-16xl) 0 0;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
 }
 .featuredBikeNewCard3 {
   width: 540px;
@@ -2029,7 +2029,7 @@
 }
 .buyNow4 {
   position: relative;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   line-height: 21px;
   font-weight: 500;
   font-family: var(--font-inter);
@@ -2293,10 +2293,10 @@
 .findAPartner {
   align-self: stretch;
   position: relative;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   line-height: 12px;
   font-weight: 500;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   color: var(--download-heavy-metal);
   text-align: center;
 }
@@ -3126,7 +3126,7 @@
   text-align: left;
   font-size: var(--font-size-31xl);
   color: var(--download-black);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 .body {
   flex-shrink: 0;
@@ -3164,7 +3164,7 @@
   font-size: var(--download-2-nuckle-medium-14-size);
   line-height: 21px;
   font-weight: 500;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   color: var(--download-black);
   text-align: center;
   display: flex;
@@ -3695,7 +3695,7 @@
   font-size: var(--download-2-nuckle-medium-14-size);
   line-height: 21px;
   font-weight: 500;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   color: var(--download-black);
   text-align: center;
   display: flex;
@@ -3792,7 +3792,7 @@
 }
 .form {
   text-align: center;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
 }
 .vectorIcon9 {
   width: 13.1px;
@@ -3996,7 +3996,7 @@
   text-align: left;
   font-size: var(--download-2-nuckle-regular-16-size);
   color: var(--download-nero);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 .products {
   width: 1440px;

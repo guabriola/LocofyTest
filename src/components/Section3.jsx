@@ -1,7 +1,6 @@
-import { FunctionComponent } from "react";
 import styles from "./Section3.module.css";
 
-const Section3: FunctionComponent = () => {
+const Section3 = () => {
   return (
     <div className={styles.section}>
       <div className={styles.textMediaNewWrapper}>

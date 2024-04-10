@@ -1,32 +1,7 @@
-import { FunctionComponent, useMemo, type CSSProperties } from "react";
+import { useMemo } from "react";
 import styles from "./Span.module.css";
 
-export type SpanType = {
-  discoverYour?: string;
-  localVeloretti?: string;
-  partnerStore?: string;
-  ourPartnerStoresAcrossThe?: string;
-  areThereForYouWhetherYour?: string;
-  pickUpANewlyOrderedBikeNe?: string;
-  wantToTakeATestRideOnOurI?: string;
-  yourIdealBikingExperience?: string;
-  youThink?: string;
-
-  /** Style props */
-  propAlignSelf?: CSSProperties["alignSelf"];
-  propFlex?: CSSProperties["flex"];
-  propPadding?: CSSProperties["padding"];
-  propMinWidth?: CSSProperties["minWidth"];
-  propPadding1?: CSSProperties["padding"];
-  propPadding2?: CSSProperties["padding"];
-  propColor?: CSSProperties["color"];
-  propWidth?: CSSProperties["width"];
-  propPadding3?: CSSProperties["padding"];
-  propAlignSelf1?: CSSProperties["alignSelf"];
-  propColor1?: CSSProperties["color"];
-};
-
-const Span: FunctionComponent<SpanType> = ({
+const Span = ({
   discoverYour,
   localVeloretti,
   partnerStore,
@@ -48,7 +23,7 @@ const Span: FunctionComponent<SpanType> = ({
   propAlignSelf1,
   propColor1,
 }) => {
-  const spanStyle: CSSProperties = useMemo(() => {
+  const spanStyle = useMemo(() => {
     return {
       alignSelf: propAlignSelf,
       flex: propFlex,
@@ -57,25 +32,25 @@ const Span: FunctionComponent<SpanType> = ({
     };
   }, [propAlignSelf, propFlex, propPadding, propMinWidth]);
 
-  const headingsStyle: CSSProperties = useMemo(() => {
+  const headingsStyle = useMemo(() => {
     return {
       padding: propPadding1,
     };
   }, [propPadding1]);
 
-  const heading41Style: CSSProperties = useMemo(() => {
+  const heading41Style = useMemo(() => {
     return {
       padding: propPadding2,
     };
   }, [propPadding2]);
 
-  const discoverYourLocalContainerStyle: CSSProperties = useMemo(() => {
+  const discoverYourLocalContainerStyle = useMemo(() => {
     return {
       color: propColor,
     };
   }, [propColor]);
 
-  const paragraphStyle: CSSProperties = useMemo(() => {
+  const paragraphStyle = useMemo(() => {
     return {
       width: propWidth,
       padding: propPadding3,
@@ -83,7 +58,7 @@ const Span: FunctionComponent<SpanType> = ({
     };
   }, [propWidth, propPadding3, propAlignSelf1]);
 
-  const ourPartnerStoresContainerStyle: CSSProperties = useMemo(() => {
+  const ourPartnerStoresContainerStyle = useMemo(() => {
     return {
       color: propColor1,
     };

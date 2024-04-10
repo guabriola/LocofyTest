@@ -40,9 +40,9 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   font-weight: 500;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   color: var(--download-1-heavy-metal-90);
   min-width: 250px;
 }
@@ -72,9 +72,9 @@
   flex: 1;
   overflow: hidden;
   flex-direction: column;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   font-weight: 500;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   color: var(--download-1-heavy-metal-90);
   min-width: 250px;
 }
@@ -96,9 +96,9 @@
   flex: 1;
   overflow: hidden;
   flex-direction: column;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   font-weight: 500;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   color: var(--download-1-heavy-metal-90);
   min-width: 250px;
 }
@@ -128,9 +128,9 @@
   flex: 1;
   overflow: hidden;
   flex-direction: column;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   font-weight: 500;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   color: var(--download-1-heavy-metal-90);
   min-width: 250px;
 }
@@ -161,9 +161,9 @@
   flex: 1;
   overflow: hidden;
   flex-direction: column;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   font-weight: 500;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   color: var(--download-1-heavy-metal-90);
   min-width: 250px;
   max-width: 100%;
@@ -239,9 +239,9 @@
   flex: 1;
   overflow: hidden;
   flex-direction: column;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   font-weight: 500;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   color: var(--download-1-heavy-metal-90);
   min-width: 250px;
   max-width: 100%;
@@ -266,9 +266,9 @@
   outline: 0;
   overflow: hidden;
   padding: var(--padding-2xl);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   font-weight: 500;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   color: var(--download-1-heavy-metal-90);
 }
 .button1,
@@ -280,10 +280,10 @@
 .sendTheRequest {
   width: 103px;
   position: relative;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   line-height: 21px;
   font-weight: 500;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   color: var(--download-nero);
   text-align: center;
 }
@@ -319,7 +319,7 @@
   padding: 0;
   box-sizing: border-box;
   gap: var(--gap-4xl);
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
 }
 .section,
 .section1 {
@@ -337,7 +337,7 @@
   text-align: center;
   font-size: var(--font-size-31xl);
   color: var(--download-1-heavy-metal-90);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 @media screen and (max-width: 1425px) {
   .section1 {

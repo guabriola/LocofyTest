@@ -1,7 +1,6 @@
-import { FunctionComponent } from "react";
 import styles from "./FooterBackground.module.css";
 
-const FooterBackground: FunctionComponent = () => {
+const FooterBackground = () => {
   return (
     <div className={styles.footerBackground}>
       <div className={styles.footerCustomWrapper}>

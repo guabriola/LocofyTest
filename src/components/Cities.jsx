@@ -1,7 +1,6 @@
-import { FunctionComponent } from "react";
 import styles from "./Cities.module.css";
 
-const Cities: FunctionComponent = () => {
+const Cities = () => {
   return (
     <div className={styles.cities}>
       <main className={styles.body}>

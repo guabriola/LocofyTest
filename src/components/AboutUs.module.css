@@ -776,10 +776,10 @@
 }
 .buyNow {
   position: relative;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   line-height: 21px;
   font-weight: 500;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   color: var(--download-1-black-87);
   text-align: left;
   display: inline-block;
@@ -851,7 +851,7 @@
   justify-content: center;
   padding: var(--padding-16xl) 0 0;
   z-index: 1;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
 }
 .featuredBikeNewCard {
   width: 540px;
@@ -986,10 +986,10 @@
 }
 .buyNow1 {
   position: relative;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   line-height: 21px;
   font-weight: 500;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   color: var(--download-1-black-87);
   text-align: left;
   display: inline-block;
@@ -1055,7 +1055,7 @@
   align-items: flex-end;
   justify-content: center;
   padding: var(--padding-16xl) 0 0;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
 }
 .featuredBikeNewCard1 {
   width: 540px;
@@ -1170,10 +1170,10 @@
 }
 .buyNow2 {
   position: relative;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   line-height: 21px;
   font-weight: 500;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   color: var(--download-1-black-87);
   text-align: left;
   display: inline-block;
@@ -1239,7 +1239,7 @@
   align-items: flex-end;
   justify-content: center;
   padding: var(--padding-16xl) 0 0;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
 }
 .featuredBikeNewCard2 {
   width: 540px;
@@ -1322,7 +1322,7 @@
   text-align: left;
   font-size: var(--font-size-31xl);
   color: var(--download-1-heavy-metal-90);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 .body,
 .iterationManagerIcon,
@@ -1851,9 +1851,9 @@
   padding: 0 0 var(--padding-12xs);
   z-index: 99;
   text-align: center;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   color: var(--download-nero);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 .amsterdamAmstelveenAbcoude,
 .berlinHamburgAnd,
@@ -1888,7 +1888,7 @@
   font-size: var(--download-2-nuckle-medium-14-size);
   line-height: 21px;
   font-weight: 500;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   color: var(--download-black);
   text-align: center;
   display: flex;
@@ -2422,7 +2422,7 @@
   font-size: var(--download-2-nuckle-medium-14-size);
   line-height: 21px;
   font-weight: 500;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   color: var(--download-black);
   text-align: center;
   display: flex;
@@ -2520,7 +2520,7 @@
 .form {
   flex-shrink: 0;
   text-align: center;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
 }
 .vectorIcon6 {
   width: 13.1px;
@@ -2722,7 +2722,7 @@
   text-align: left;
   font-size: var(--download-2-nuckle-regular-16-size);
   color: var(--download-nero);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 .aboutUs {
   width: 1440px;

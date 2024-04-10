@@ -1,4 +1,3 @@
-import { FunctionComponent } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Form } from "react-bootstrap";
 import Section3 from "./Section3";
@@ -10,7 +9,7 @@ import FooterBackground from "./FooterBackground";
 import FooterContainer from "./FooterContainer";
 import styles from "./Home.module.css";
 
-const Home: FunctionComponent = () => {
+const Home = () => {
   return (
     <div className={styles.home}>
       <header className={styles.header}>

@@ -1,19 +1,7 @@
-import { FunctionComponent, useMemo, type CSSProperties } from "react";
+import { useMemo } from "react";
 import styles from "./ChooseType.module.css";
 
-export type ChooseTypeType = {
-  image?: string;
-  electricAce?: string;
-
-  /** Style props */
-  propBorder?: CSSProperties["border"];
-  propPadding?: CSSProperties["padding"];
-  propAlignSelf?: CSSProperties["alignSelf"];
-  propWidth?: CSSProperties["width"];
-  propMinWidth?: CSSProperties["minWidth"];
-};
-
-const ChooseType: FunctionComponent<ChooseTypeType> = ({
+const ChooseType = ({
   image,
   electricAce,
   propBorder,
@@ -22,21 +10,21 @@ const ChooseType: FunctionComponent<ChooseTypeType> = ({
   propWidth,
   propMinWidth,
 }) => {
-  const productViewBikeSelectorConStyle: CSSProperties = useMemo(() => {
+  const productViewBikeSelectorConStyle = useMemo(() => {
     return {
       border: propBorder,
       padding: propPadding,
     };
   }, [propBorder, propPadding]);
 
-  const span1Style: CSSProperties = useMemo(() => {
+  const span1Style = useMemo(() => {
     return {
       alignSelf: propAlignSelf,
       width: propWidth,
     };
   }, [propAlignSelf, propWidth]);
 
-  const electricAceStyle: CSSProperties = useMemo(() => {
+  const electricAceStyle = useMemo(() => {
     return {
       minWidth: propMinWidth,
     };

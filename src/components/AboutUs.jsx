@@ -1,7 +1,6 @@
-import { FunctionComponent } from "react";
 import styles from "./AboutUs.module.css";
 
-const AboutUs: FunctionComponent = () => {
+const AboutUs = () => {
   return (
     <div className={styles.aboutUs}>
       <main className={styles.body}>
@@ -13,7 +12,7 @@ const AboutUs: FunctionComponent = () => {
                   <img
                     className={styles.imagejpegIcon}
                     alt=""
-                    src="/imagejpeg@2x.png"
+                    src="/imagejpeg1@2x.png"
                   />
                 </div>
               </div>

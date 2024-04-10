@@ -529,9 +529,9 @@
   flex-direction: column;
   align-items: flex-start;
   text-align: center;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   color: var(--download-heavy-metal);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 .imageIcon {
   max-width: 100%;
@@ -1060,7 +1060,7 @@
 .productViewKlarnaMessageCo {
   padding: var(--padding-11xl) 0 var(--padding-xl);
   text-align: center;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
 }
 .productViewDividerParent {
   padding: 0 0 var(--padding-3xs);
@@ -1136,10 +1136,10 @@
 .customiseNow {
   align-self: stretch;
   position: relative;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   line-height: 12px;
   font-weight: 500;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   color: var(--download-nero);
   text-align: center;
 }
@@ -1284,9 +1284,9 @@
   padding: 0 var(--padding-xl) 0 0;
   gap: 42.4px;
   text-align: left;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   color: var(--download-heavy-metal);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 .rangeBattery,
 .removableLong {
@@ -1374,7 +1374,7 @@
   text-align: left;
   font-size: var(--font-size-31xl);
   color: var(--download-nero);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 .heading21 {
   margin: 0;
@@ -1480,7 +1480,7 @@
   text-align: left;
   font-size: var(--font-size-31xl);
   color: var(--download-heavy-metal);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 .imageIcon3,
 .video {
@@ -1649,7 +1649,7 @@
   text-align: left;
   font-size: var(--font-size-31xl);
   color: var(--download-nero);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 .automated,
 .enviolo,
@@ -1767,7 +1767,7 @@
   text-align: left;
   font-size: var(--font-size-31xl);
   color: var(--download-heavy-metal);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 .imageIcon6 {
   height: 900px;
@@ -1876,7 +1876,7 @@
   text-align: left;
   font-size: var(--font-size-31xl);
   color: var(--download-heavy-metal);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 .heading25 {
   margin: 0;
@@ -1987,7 +1987,7 @@
   text-align: left;
   font-size: var(--font-size-31xl);
   color: var(--download-heavy-metal);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 .osram,
 .precisionLight {
@@ -2087,7 +2087,7 @@
   text-align: left;
   font-size: var(--font-size-31xl);
   color: var(--download-nero);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 .video4,
 .videojpgIcon {
@@ -2230,7 +2230,7 @@
   text-align: left;
   font-size: var(--font-size-31xl);
   color: var(--download-1-heavy-metal-90);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 .discbrakes,
 .hydraulic,
@@ -2512,7 +2512,7 @@
   position: relative;
   font-size: var(--font-size-xl);
   line-height: 20px;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   color: var(--download-black);
   text-align: center;
   align-items: center;
@@ -2556,7 +2556,7 @@
   position: relative;
   font-size: var(--font-size-xl);
   line-height: 20px;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   color: var(--download-black);
   text-align: center;
   align-items: center;
@@ -2587,7 +2587,7 @@
   position: relative;
   font-size: var(--font-size-xl);
   line-height: 20px;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   color: var(--download-black);
   text-align: center;
   display: flex;
@@ -2622,7 +2622,7 @@
   position: relative;
   font-size: var(--font-size-xl);
   line-height: 20px;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   color: var(--download-black);
   text-align: center;
   display: flex;
@@ -2666,7 +2666,7 @@
   position: relative;
   font-size: var(--font-size-xl);
   line-height: 20px;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   color: var(--download-black);
   text-align: center;
   display: flex;
@@ -2744,7 +2744,7 @@
   text-align: left;
   font-size: var(--font-size-31xl);
   color: var(--download-1-heavy-metal-90);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 .allInThe {
   margin: 0;
@@ -3564,7 +3564,7 @@
   font-size: var(--download-2-nuckle-regular-16-size);
   line-height: 21px;
   font-weight: 500;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   color: var(--download-heavy-metal);
   text-align: left;
 }
@@ -3607,7 +3607,7 @@
   text-align: center;
   font-size: var(--font-size-31xl);
   color: var(--download-heavy-metal);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 .main,
 .section10 {
@@ -3652,7 +3652,7 @@
   font-size: var(--download-2-nuckle-medium-14-size);
   line-height: 21px;
   font-weight: 500;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   color: var(--download-black);
   text-align: center;
   display: flex;
@@ -4171,7 +4171,7 @@
   font-size: var(--download-2-nuckle-medium-14-size);
   line-height: 21px;
   font-weight: 500;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   color: var(--download-black);
   text-align: center;
   display: flex;
@@ -4270,7 +4270,7 @@
 .form {
   flex-shrink: 0;
   text-align: center;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
 }
 .vectorIcon15 {
   width: 13.1px;
@@ -4472,7 +4472,7 @@
   text-align: left;
   font-size: var(--download-2-nuckle-regular-16-size);
   color: var(--download-nero);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 .singleProductPage {
   width: 1440px;

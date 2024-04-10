@@ -1,9 +1,8 @@
-import { FunctionComponent } from "react";
 import ChooseType from "./ChooseType";
 import Span from "./Span";
 import styles from "./SingleProductPage.module.css";
 
-const SingleProductPage: FunctionComponent = () => {
+const SingleProductPage = () => {
   return (
     <div className={styles.singleProductPage}>
       <header className={styles.header}>
@@ -188,7 +187,7 @@ const SingleProductPage: FunctionComponent = () => {
                         <img
                           className={styles.imageIcon}
                           alt=""
-                          src="/image@2x.png"
+                          src="/image3@2x.png"
                         />
                       </div>
                       <div className={styles.productImageBackground}>

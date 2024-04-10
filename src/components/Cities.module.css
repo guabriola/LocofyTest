@@ -747,7 +747,7 @@
   text-align: left;
   font-size: var(--font-size-101xl);
   color: var(--download-nero);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 .body,
 .main {
@@ -791,7 +791,7 @@
   font-size: var(--download-2-nuckle-medium-14-size);
   line-height: 21px;
   font-weight: 500;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   color: var(--download-black);
   text-align: center;
   display: flex;
@@ -1322,7 +1322,7 @@
   font-size: var(--download-2-nuckle-medium-14-size);
   line-height: 21px;
   font-weight: 500;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   color: var(--download-black);
   text-align: center;
   display: flex;
@@ -1420,7 +1420,7 @@
 }
 .form {
   text-align: center;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
 }
 .priorityQueueIcon {
   width: 13.1px;
@@ -1623,7 +1623,7 @@
   text-align: left;
   font-size: var(--download-2-nuckle-regular-16-size);
   color: var(--download-nero);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 .messageRouterIcon {
   height: 10.5px;
@@ -2145,9 +2145,9 @@
   row-gap: 20px;
   z-index: 1;
   text-align: center;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   color: var(--download-nero);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 .cities {
   width: 1440px;

@@ -310,7 +310,7 @@
   text-align: left;
   font-size: var(--font-size-101xl);
   color: var(--download-heavy-metal);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 @media screen and (max-width: 1200px) {
   .h2,

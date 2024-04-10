@@ -473,7 +473,7 @@
   font-size: var(--download-2-nuckle-medium-14-size);
   line-height: 21px;
   font-weight: 500;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   color: var(--download-black);
   text-align: center;
   display: flex;
@@ -571,7 +571,7 @@
 }
 .form {
   text-align: center;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
 }
 .vectorIcon {
   width: 13.1px;
@@ -759,7 +759,7 @@
   text-align: left;
   font-size: var(--font-size-xl);
   color: var(--download-gallery);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 @media screen and (max-width: 1200px) {
   .footerMenus {

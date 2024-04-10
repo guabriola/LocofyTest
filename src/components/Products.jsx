@@ -1,8 +1,7 @@
-import { FunctionComponent } from "react";
 import Span from "./Span";
 import styles from "./Products.module.css";
 
-const Products: FunctionComponent = () => {
+const Products = () => {
   return (
     <div className={styles.products}>
       <header className={styles.header}>

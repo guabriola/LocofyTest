@@ -31,7 +31,7 @@
   font-size: var(--download-2-nuckle-medium-14-size);
   line-height: 21px;
   font-weight: 500;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   color: var(--download-black);
   text-align: center;
   display: flex;
@@ -89,7 +89,7 @@
   text-align: left;
   font-size: var(--download-2-nuckle-regular-16-size);
   color: var(--download-nero);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 @media screen and (max-width: 1425px) {
   .footerCustomWrapper {

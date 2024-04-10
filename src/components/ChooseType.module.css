@@ -69,7 +69,7 @@
   gap: var(--gap-mini);
   min-width: 71px;
   text-align: left;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   color: var(--download-heavy-metal);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }

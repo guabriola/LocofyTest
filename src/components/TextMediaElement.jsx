@@ -1,8 +1,7 @@
-import { FunctionComponent } from "react";
 import Item from "./Item";
 import styles from "./TextMediaElement.module.css";
 
-const TextMediaElement: FunctionComponent = () => {
+const TextMediaElement = () => {
   return (
     <div className={styles.textMediaElement}>
       <div className={styles.textMediaStaticForegroundWrapper}>

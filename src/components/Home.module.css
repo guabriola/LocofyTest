@@ -15,9 +15,9 @@
 }
 .buttonFormselect {
   flex: 1;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   font-weight: 500;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   color: var(--download-heavy-metal);
 }
 .item {
@@ -31,9 +31,9 @@
 }
 .buttonFormselect1 {
   flex: 1;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   font-weight: 500;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   color: var(--download-heavy-metal);
 }
 .item1 {
@@ -55,9 +55,9 @@
   border: 0;
   align-items: flex-start;
   padding: 0 var(--padding-12xs);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   font-weight: 500;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   color: var(--download-heavy-metal);
 }
 .item2 {
@@ -146,9 +146,9 @@
   border: 0;
   align-items: flex-start;
   padding: 0 1.400000000000091px 0 1.699999999999818px;
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
   font-weight: 500;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   color: var(--download-heavy-metal);
 }
 .button3,
@@ -352,9 +352,9 @@
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  font-size: var(--download-2-nuckle-regular-12-size);
+  font-size: var(--download-4-nuckle-regular-12-underline-size);
   color: var(--download-heavy-metal);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 .velorettiBusiness {
   position: relative;
@@ -756,7 +756,7 @@
   text-align: left;
   font-size: var(--font-size-31xl);
   color: var(--download-1-heavy-metal-90);
-  font-family: var(--download-2-nuckle-regular-16);
+  font-family: var(--download-3-nuckle-medium-25);
 }
 .footer {
   background-color: var(--download-heavy-metal);

@@ -1,20 +1,7 @@
-import { FunctionComponent, useMemo, type CSSProperties } from "react";
+import { useMemo } from "react";
 import styles from "./Item.module.css";
 
-export type ItemType = {
-  determineTheRequirements?: string;
-  youGetAccesToTheDigitalPl?: string;
-  yourEmployeesAndShareTheR?: string;
-
-  /** Style props */
-  propAlignSelf?: CSSProperties["alignSelf"];
-  propPadding?: CSSProperties["padding"];
-  propWidth?: CSSProperties["width"];
-  propPadding1?: CSSProperties["padding"];
-  propMinWidth?: CSSProperties["minWidth"];
-};
-
-const Item: FunctionComponent<ItemType> = ({
+const Item = ({
   determineTheRequirements,
   youGetAccesToTheDigitalPl,
   yourEmployeesAndShareTheR,
@@ -24,7 +11,7 @@ const Item: FunctionComponent<ItemType> = ({
   propPadding1,
   propMinWidth,
 }) => {
-  const wrapStyle: CSSProperties = useMemo(() => {
+  const wrapStyle = useMemo(() => {
     return {
       alignSelf: propAlignSelf,
       padding: propPadding,
@@ -32,7 +19,7 @@ const Item: FunctionComponent<ItemType> = ({
     };
   }, [propAlignSelf, propPadding, propWidth]);
 
-  const heading4Style: CSSProperties = useMemo(() => {
+  const heading4Style = useMemo(() => {
     return {
       padding: propPadding1,
       minWidth: propMinWidth,
